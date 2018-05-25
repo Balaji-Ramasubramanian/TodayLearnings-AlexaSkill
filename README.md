@@ -1,6 +1,6 @@
 # TodayLearnings-AlexaSkill
  
- [Today Learnings](https://www.amazon.com/dp/B07D93S6DF/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1527241646&sr=1-1&keywords=today+learning) is a Alexa skill that gives you interesting and specific facts from [TodayILearned Subreddit](https://www.reddit.com/r/todayilearned/) in Reddit website.
+ [Today Learnings](https://www.amazon.com/dp/B07D93S6DF/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1527241646&sr=1-1&keywords=today+learning) is an Alexa skill that gives you interesting and specific facts from [TodayILearned Subreddit](https://www.reddit.com/r/todayilearned/) in Reddit website.
 
 ## Requirements
 - Ruby.
@@ -28,7 +28,7 @@ To Deploying Alexa skill you require an online hosting server.
 You need to have Heroku CLI installed to deploy the Alexa skill in Heroku. To find more details about Heroku CLI, [click here](https://devcenter.heroku.com/articles/heroku-cli).
 
 You can follow [this link](https://devcenter.heroku.com/articles/git) to setup the Heroku environment for the project.
-### Deploying with AWS Lambda:
+#### Deploying with AWS Lambda:
 AWS Lambda currently doesn't support Ruby projects. So, First we need to wrap this code with Node.js. To do this follow the instructions provide in [this link](https://aws.amazon.com/blogs/compute/scripting-languages-for-aws-lambda-running-php-ruby-and-go/).
 
 ## Contribute
