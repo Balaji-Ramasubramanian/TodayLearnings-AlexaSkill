@@ -2,16 +2,16 @@ GEM
   remote: https://rubygems.org/
   specs:
     alexa_verifier (1.0.0)
-    dotenv (2.4.0)
-    faraday (0.15.2)
+    dotenv (2.7.5)
+    faraday (0.17.1)
       multipart-post (>= 1.2, < 3)
     htmlentities (4.3.4)
-    json (2.1.0)
-    multi_json (1.13.1)
-    multipart-post (2.0.0)
-    mustermann (1.0.2)
-    rack (2.0.5)
-    rack-protection (2.0.2)
+    json (2.3.0)
+    multi_json (1.14.1)
+    multipart-post (2.1.1)
+    mustermann (1.0.3)
+    rack (2.0.8)
+    rack-protection (2.0.7)
       rack
     ralyxa (1.8.0)
       alexa_verifier (~> 1.0)
@@ -19,12 +19,12 @@ GEM
       faraday (~> 0.8)
       htmlentities (~> 4.3)
       multi_json (~> 1.8)
-    sinatra (2.0.2)
+    sinatra (2.0.7)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.2)
+      rack-protection (= 2.0.7)
       tilt (~> 2.0)
-    tilt (2.0.8)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
@@ -37,4 +37,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
