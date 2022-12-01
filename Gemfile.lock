@@ -9,9 +9,10 @@ GEM
     json (2.3.0)
     multi_json (1.14.1)
     multipart-post (2.1.1)
-    mustermann (1.0.3)
-    rack (2.0.8)
-    rack-protection (2.0.7)
+    mustermann (2.0.2)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.4)
+    rack-protection (2.2.3)
       rack
     ralyxa (1.8.0)
       alexa_verifier (~> 1.0)
@@ -19,12 +20,13 @@ GEM
       faraday (~> 0.8)
       htmlentities (~> 4.3)
       multi_json (~> 1.8)
-    sinatra (2.0.7)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.7)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.3)
+      mustermann (~> 2.0)
+      rack (~> 2.2)
+      rack-protection (= 2.2.3)
       tilt (~> 2.0)
-    tilt (2.0.10)
+    tilt (2.0.11)
 
 PLATFORMS
   ruby
